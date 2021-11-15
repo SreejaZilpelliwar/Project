@@ -1,0 +1,96 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(0,0,0,0.938);
+}
+.navbar{
+  float: right;
+  background-color: transparent;
+  position: relative;
+  z-index: 4;
+}
+
+.navlink{
+    
+    font-size: 14px;
+}
+main{
+    position: fit-content; 
+    top: 0%;
+    z-index: 0;
+   
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 8%;
+}
+.site-wrapper{
+    height: 640px;
+}
+.card,.list-group-item {
+    background-color: black;
+}
+.parallax{
+    background-image: url("pixel.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+   
+}
+
+/*---------------------------------Registration------------------------*/
+.reg_img
+{
+    height:650px;
+    margin-top: 0px;
+    background-image: url("login.jpg");
+}
+.box2
+{
+    height: 500px;
+    width: 410px;
+    background-color: black;
+    margin: 0px auto;
+    opacity: .7;
+    color: white;
+    padding: 20px;
+}
+form .Registration
+{
+    margin: auto 50px ;
+}
+input
+{
+    height:25px;
+    width:100px;
+}
+
+
+/*-----------------------------Login------------------------------*/
+
+.log_img
+{
+    height:650px;
+    margin-top: 0px;
+    background-image: url("login.jpg");
+}
+.box1
+{
+    height: 350px;
+    width: 410px;
+    background-color: black;
+    margin: 70px auto;
+    opacity: .7;
+    color: white;
+    padding: 20px;
+}
+form .login
+{
+    margin: auto 50px ;
+}
+input
+{
+    height:25px;
+    width:100px;
+}
